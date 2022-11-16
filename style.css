@@ -1,3 +1,8 @@
+body {
+  background-image: url('images/background.jpg');
+}
+
+
 /* Home Page*/
 .welcome {
   font-size: 72px;
@@ -42,12 +47,28 @@
   font-size: 17px;
 }
 
+/*Product Page*/
+
+.prodleftside {
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /*Stickers Page* Coloring Page*/
 
 h1 {
   text-align: center;
   font-size: 50px;
-  font-family: 'Roboto Slab', serif; 
+  font-family: 'Roboto Slab', serif;
+  color: #fff; 
+  text-transform: uppercase;
 }
 
 .button {
@@ -64,7 +85,7 @@ h1 {
 }
 
 .buttonsubtitle {
-  color: #333;
+  color: #fff;
   font-size: 50px;
   text-transform: uppercase;
   text-align: center;
@@ -74,13 +95,16 @@ h1 {
 
 /*Website Page*/
 
-.website1, .website2 {
+.webleftside {
   display: inline-block;
-  color: #333;
+  padding: 10px 15px;
+  margin: 10px;
+  color: #fff;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  text-decoration: underline;;
+  text-decoration: underline;
+  word-spacing: 5px;
 }
 
 
@@ -88,15 +112,18 @@ h1 {
 /* Contact Page*/
 
 .contact {
+  color: #fff;
   font-size: 20px;
   word-spacing: 5px;
 }
 
 .email {
   font-size: 2.5rem;
+  color: #fff;
   
 }
 
 h3 {
+  color: #fff;
   font-size: 2.4rem;
 }
