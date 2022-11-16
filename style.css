@@ -1,0 +1,129 @@
+body {
+  background-image: url('images/background.jpg');
+}
+
+
+/* Home Page*/
+.welcome {
+  font-size: 72px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+/*title*/
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: 'Roboto Slab', serif; 
+
+}
+
+.sub-title {
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+
+
+/*Nav-Bar*/
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*Product Page*/
+
+.prodleftside {
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Stickers Page* Coloring Page*/
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Roboto Slab', serif;
+  color: #fff; 
+  text-transform: uppercase;
+}
+
+.button {
+  padding: 10px 15px;
+  margin: 10px;
+}
+
+.button {
+  border: 5px solid #2596be;
+  background-color: #53bbd9;
+  color: #fff;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.buttonsubtitle {
+  color: #fff;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+/*Website Page*/
+
+.webleftside {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  word-spacing: 5px;
+}
+
+
+
+/* Contact Page*/
+
+.contact {
+  color: #fff;
+  font-size: 20px;
+  word-spacing: 5px;
+}
+
+.email {
+  font-size: 2.5rem;
+  color: #fff;
+  
+}
+
+h3 {
+  color: #fff;
+  font-size: 2.4rem;
+}
