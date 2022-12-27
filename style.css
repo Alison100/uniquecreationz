@@ -47,18 +47,8 @@ body {
   font-size: 17px;
 }
 
-/*Product Page*/
-
-.prodleftside {
-  padding: 10px 15px;
-  margin: 10px;
-  font-size: 2.5rem;
-  text-align: center;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
+img {
+  float: left;
 }
 
 /*Stickers Page* Coloring Page*/
@@ -71,12 +61,10 @@ h1 {
   text-transform: uppercase;
 }
 
+
 .button {
   padding: 10px 15px;
   margin: 10px;
-}
-
-.button {
   border: 5px solid #2596be;
   background-color: #53bbd9;
   color: #fff;
@@ -94,6 +82,12 @@ h1 {
 }
 
 /*Website Page*/
+
+.webtitle {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
 
 .webleftside {
   display: inline-block;
