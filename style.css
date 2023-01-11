@@ -12,8 +12,6 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 
-/*title*/
-
 .title {
   text-align: center;
   text-transform: uppercase;
@@ -51,7 +49,6 @@ img {
   float: left;
 }
 
-/*Stickers Page* Coloring Page*/
 
 h1 {
   text-align: center;
@@ -59,26 +56,6 @@ h1 {
   font-family: 'Roboto Slab', serif;
   color: #fff; 
   text-transform: uppercase;
-}
-
-
-.button {
-  padding: 10px 15px;
-  margin: 10px;
-  border: 5px solid #2596be;
-  background-color: #53bbd9;
-  color: #fff;
-  text-decoration: none;
-  font-size: 50px;
-}
-
-.buttonsubtitle {
-  color: #fff;
-  font-size: 50px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: bold;
-  font-family: monospace;
 }
 
 /*Website Page*/
@@ -101,6 +78,15 @@ h1 {
   word-spacing: 5px;
 }
 
+/* Store Page */
+
+a {
+  font-size: 50px;
+  color: #fff;
+  display: inline-block;
+  padding: 30px;
+  margin: 20px;
+}
 
 
 /* Contact Page*/
@@ -111,13 +97,20 @@ h1 {
   word-spacing: 5px;
 }
 
-.email {
-  font-size: 2.5rem;
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Moon Dance', cursive;
+  font-size: 50px;
   color: #fff;
   
 }
 
-h3 {
-  color: #fff;
-  font-size: 2.4rem;
+/* Items - Paintings, Coasters*/
+
+img {
+  padding: 15px;
+  margin: 10px;
 }
+
+
