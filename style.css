@@ -2,115 +2,50 @@ body {
   background-image: url('images/background.jpg');
 }
 
-
-/* Home Page*/
-.welcome {
-  font-size: 72px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: 'Roboto Slab', serif;
-}
-
-.title {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 50px;
-  font-family: 'Roboto Slab', serif; 
-
-}
-
-.sub-title {
-  text-align: left;
-  text-transform: capitalize;
-  font-size: 30px;
-}
-
-
-/*Nav-Bar*/
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
+/*Nav Bar*/
+#logo { 
   float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-img {
-  float: left;
-}
-
-
-h1 {
-  text-align: center;
-  font-size: 50px;
-  font-family: 'Roboto Slab', serif;
-  color: #fff; 
-  text-transform: uppercase;
-}
-
-/*Website Page*/
-
-.webtitle {
-  color: #fff;
-  font-size: 20px;
-  text-align: center;
-}
-
-.webleftside {
-  display: inline-block;
-  padding: 10px 15px;
-  margin: 10px;
-  color: #fff;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  text-decoration: underline;
-  word-spacing: 5px;
-}
-
-/* Store Page */
-
-a {
-  font-size: 50px;
-  color: #fff;
-  display: inline-block;
-  padding: 30px;
-  margin: 20px;
-}
-
-
-/* Contact Page*/
-
-.contact {
-  color: #fff;
-  font-size: 20px;
-  word-spacing: 5px;
-}
-
-h2 {
-  text-align: center;
-  text-transform: capitalize;
-  font-family: 'Moon Dance', cursive;
-  font-size: 50px;
-  color: #fff;
   
 }
 
-/* Items - Paintings, Coasters*/
-
-img {
-  padding: 15px;
-  margin: 10px;
+.clear {
+  clear: both;
 }
 
+#nav {
+    background-color: rgba(224, 147, 4, 0.848);  /*turns nav bar white*/
+    color: white;
+    width: 100%;
 
+}
+.nav {
+  float: right;
+  list-style: none;    /*gets rid of bullet points*/ 
+    text-align: left;
+    /*padding: 0px -10px 0px -10px; */
+  margin: 0;
+}
+.nav > li {                                                             /*max-width: 768px*/
+    display:Inline-block;
+    padding: 10px 9px 10px 9px;                               /*nav bar text*/
+}
+
+ .nav > li a {                                               
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     font-size: 20px;
+     padding: 5px 0px 5px 0px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+ }
+
+/*Body of Page*/
+
+.container {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: capitalize;
+}
