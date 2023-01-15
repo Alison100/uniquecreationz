@@ -13,7 +13,7 @@ body {
 }
 
 #nav {
-    background-color: rgba(224, 147, 4, 0.848);  /*turns nav bar white*/
+    background-color: rgba(0, 0, 0, 0.848);  /*turns nav bar white*/
     color: white;
     width: 100%;
 
@@ -32,7 +32,7 @@ body {
 
  .nav > li a {                                               
      text-decoration: none;
-     color: rgb(0, 0, 0);
+     color: rgb(255, 255, 255);
      font-size: 20px;
      padding: 5px 0px 5px 0px;
      font-family: 'Roboto', sans-serif;
@@ -44,7 +44,7 @@ body {
 .container {
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 800;
   text-align: center;
   text-transform: capitalize;
